@@ -11,5 +11,4 @@
 </template>
 <script setup>
 import topheader from "./top-header.vue";
-import sidebar from "./sidebar.vue";
 </script>
