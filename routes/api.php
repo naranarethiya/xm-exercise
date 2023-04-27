@@ -20,3 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/historical-data', [HomeController::class, 'getHistoricalData']);
+Route::post('/historical-data/send', [HomeController::class, 'sendHistoricData']);
+Route::get('/company-symbols', [HomeController::class, 'getCompanySymbols']);
